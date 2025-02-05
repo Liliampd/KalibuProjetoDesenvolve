@@ -1,0 +1,106 @@
+/* Estilo atualizado com cores vibrantes e layout mais moderno */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #ff6f61; /* Cor principal vibrante */
+    padding: 1rem 0;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    max-width: 120px;
+}
+
+header .menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+header .menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+header .menu a:hover {
+    color: #ffcc00; /* Cor de destaque no hover */
+}
+
+header .menu .active {
+    color: #ffcc00;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+section {
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h1, section h2 {
+    color: #ff6f61; /* Cor de título vibrante */
+}
+
+section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section ul li {
+    margin-bottom: 1rem;
+}
+
+section a {
+    color: #ff6f61;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section a:hover {
+    color: #ffcc00;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
