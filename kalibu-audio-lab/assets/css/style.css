@@ -1,14 +1,14 @@
-/* Estilo atualizado com cores vibrantes e layout mais moderno */
+/* Estilo atualizado com as cores da Kalibu */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f2f2f2;
     margin: 0;
     padding: 0;
-    color: #333;
+    color: #000000;
 }
 
 header {
-    background-color: #000000; /* Cor principal vibrante */
+    background-color: #000000; /* Cor principal para gerar contraste */
     padding: 1rem 0;
     color: #ffffff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -64,7 +64,7 @@ section {
 }
 
 section h1, section h2 {
-    color: #ffffff; /* Cor de título vibrante */
+    color: #ffffff; /* Cor de título para gerar destaque */
 }
 
 section p {
@@ -82,7 +82,7 @@ section ul li {
 }
 
 section a {
-    color: #333;
+    color: #000000;
     text-decoration: none;
     font-weight: bold;
 }
