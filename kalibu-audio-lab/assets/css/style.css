@@ -1,4 +1,4 @@
-/* Estilo atualizado com as cores da Kalibu */
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f2f2f2;
@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #000000; /* Cor principal para gerar contraste */
+    background-color: #000000; 
     padding: 1rem 0;
     color: #ffffff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -43,7 +43,7 @@ header .menu a {
 }
 
 header .menu a:hover {
-    color: #505050; /* Cor de destaque no hover */
+    color: #505050; 
 }
 
 header .menu .active {
@@ -64,7 +64,7 @@ section {
 }
 
 section h1, section h2 {
-    color: #ffffff; /* Cor de título para gerar destaque */
+    color: #ffffff; 
 }
 
 section p {
